@@ -1,6 +1,6 @@
 import { FC } from 'react'
 
-import './style.less'
+import './style.css'
 
 const UserArea: FC = () => {
     return <div className='user-area'>

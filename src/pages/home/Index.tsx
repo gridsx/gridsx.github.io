@@ -1,7 +1,7 @@
 import { Button } from 'antd';
 import { FC } from 'react'
 
-import './style.less'
+import './style.css'
 
 export const HomePage: FC = () => {
 

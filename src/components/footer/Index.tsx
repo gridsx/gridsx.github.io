@@ -1,6 +1,6 @@
 import { useState, FC } from 'react';
 import { MailOutlined } from '@ant-design/icons';
-import './style.less'
+import './style.css'
 
 
 const Footer: FC = () => {

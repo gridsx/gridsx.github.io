@@ -6,7 +6,7 @@ import { AppstoreOutlined, HomeOutlined, DownloadOutlined, InfoCircleOutlined } 
 import logo from '../../assets/logo.svg'
 
 
-import './style.less'
+import './style.css'
 import UserArea from './UserArea';
 
 const items: MenuProps['items'] = [

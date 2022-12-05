@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import HomePage from '../home/Index';
 
-import './style.less'
+import './style.css'
 
 const MainContainer: FC = () => {
     return <div className='gridsx-conainer'>

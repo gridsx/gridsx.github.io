@@ -1,5 +1,5 @@
 import { Menu } from 'antd';
-import { useState, FC } from 'react';
+import React, { useState, FC } from 'react';
 import type { MenuProps } from 'antd';
 import { AppstoreOutlined, HomeOutlined, DownloadOutlined, InfoCircleOutlined } from '@ant-design/icons';
 

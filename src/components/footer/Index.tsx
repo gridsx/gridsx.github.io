@@ -1,5 +1,4 @@
-import { useState, FC } from 'react';
-import { MailOutlined } from '@ant-design/icons';
+import  React, { useState, FC } from 'react';
 import './style.css'
 
 

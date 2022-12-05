@@ -1,4 +1,6 @@
 import './App.css';
+import React  from 'react';
+
 import HomePage from './pages/home/Index';
 import Header from './components/header/Index';
 import Footer from './components/footer/Index';

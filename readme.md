@@ -1,7 +1,11 @@
 # Gridsx-Portal 
 
-This Project is the offical site [grisx.github.io](https://grisx.github.io)
+This Project is the offical site [gridsx.github.io](https://gridsx.github.io)
+
+![Logo](./src/assets/logo.svg)
 
 ---
 
 It's just a static site, nothing more.
+
+

@@ -21,13 +21,10 @@ const items: MenuProps['items'] = [
         icon: <AppstoreOutlined />,
         children: [
             {
-                label: 'Light version',
+                label: 'Light version(v1.0)',
                 key: 'product:1',
-            },
-            {
-                label: 'Enterprise version',
-                key: 'product:2',
-            },
+                disabled: true
+            }
         ],
     },
     {
@@ -36,12 +33,31 @@ const items: MenuProps['items'] = [
         icon: <DownloadOutlined />,
         children: [
             {
-                label: 'From Github',
+                label: (
+                    <div>
+                        <DownloadOutlined style={{ marginRight: 10 }} />
+                        <a href="https://gitee.com/winjeg/tables_plus/releases/download/v1.0.0/tables%20.exe" target="_blank" rel="noopener noreferrer">For Windows</a>
+                    </div>
+                ),
                 key: 'download:1',
             },
             {
-                label: 'From main site',
+                label: (
+                    <div>
+                        <DownloadOutlined style={{ marginRight: 10 }} /> For Linux
+                    </div>
+                ),
                 key: 'download:2',
+                disabled: true,
+            },
+            {
+                label: (
+                    <div>
+                        <DownloadOutlined style={{ marginRight: 10 }} /> For Mac OS
+                    </div>
+                ),
+                key: 'download:2',
+                disabled: true,
             },
         ],
     },

@@ -9,7 +9,7 @@ export const HomePage: FC = () => {
 
     return <div className='home-area' >
         <div className='home-slogan'>
-            <img src={mainPic} alt="mainPic" width={1000} height={600} />
+            <img src={mainPic} alt="mainPic" width={'100%'} height={'70%'} />
         </div>
         <div className='home-intro'>
             <div style={{ fontSize: 64, color: 'white', textAlign: 'left' }}>Tables+</div>
